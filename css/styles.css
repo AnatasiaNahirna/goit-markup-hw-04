@@ -310,6 +310,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
   .team-icon-ul {
@@ -321,7 +322,6 @@
  .team-icon-li {
     width: 40px;
     height: 40px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
 
@@ -361,7 +361,7 @@
 
 .portfolio-li {
     width: calc((100% - 48px) / 3);
-        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)
+        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-li:hover {
@@ -470,15 +470,12 @@
     justify-content: center;
     width: 40px;
     height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icon-ul {
     display: flex;
     gap: 16px;
-}
-
-.footer-icon-li {
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icon {
