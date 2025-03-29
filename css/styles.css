@@ -315,18 +315,18 @@
   .team-icon-ul {
     display: flex;
     gap: 24px;
+    justify-content: center;
   }
 
  .team-icon-li {
     width: 40px;
     height: 40px;
-    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
 
 .team-icon {
     fill: #f4f4fd;
-    justify-content: center;
 }
 
 .team-icons-a:hover,
@@ -421,7 +421,7 @@
     margin-right: 120px;
 }
 
-.footer-div-1 {
+.footer-div-all {
     display: flex;
     align-items: baseline;
 }
@@ -468,6 +468,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 40px;
+    height: 40px;
 }
 
 .footer-icon-ul {
@@ -475,8 +477,12 @@
     gap: 16px;
 }
 
+.footer-icon-li {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .footer-icon {
-    fill:#fff;
+    fill:#f4f4fd;
 }
 
 .footer-icon-a:hover,
