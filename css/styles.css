@@ -103,7 +103,7 @@
         height: 4px;
         bottom: -1px;
         left: 0;
-        wifth: 100%;
+        width: 100%;
         background-color: #404BBF;
     }
 
@@ -373,11 +373,6 @@
 .hover-text-div {
     position: relative;
     overflow: hidden;
- 
-}
-
-.portf-text-hov {
-    
 }
 
 .hover-text {
